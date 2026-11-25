@@ -1,23 +1,18 @@
 # E-Commerce Sales & Delivery Performance Dashboard (Excel)
 
-<div align="center">
+![Excel](https://img.shields.io/badge/EXCEL-POWER_PIVOT-0B0B0B?style=flat-square&labelColor=1D1D1D)
+![DAX](https://img.shields.io/badge/DAX-9_MEASURES-1D1D1D?style=flat-square&labelColor=0B0B0B)
+![Power Query](https://img.shields.io/badge/POWER_QUERY-ETL-3D3D3D?style=flat-square&labelColor=1D1D1D)
+![Domain](https://img.shields.io/badge/DOMAIN-E--COMMERCE_%26_LOGISTICS-2E2E2E?style=flat-square&labelColor=1D1D1D)
+![License](https://img.shields.io/badge/LICENSE-MIT-3D3D3D?style=flat-square&labelColor=1D1D1D)
 
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-blue?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power_Query-ETL-orange?style=for-the-badge)
-![Data Modeling](https://img.shields.io/badge/Architecture-Power_Pivot_Data_Model-darkgreen?style=for-the-badge)
-![E-Commerce](https://img.shields.io/badge/Domain-E--Commerce_%26_Logistics-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
+An interactive Excel dashboard built on a Power Pivot data model tracking **$3.44M** net revenue, **21,150** orders, regional demand, and delivery reliability across Brazilian states.
 
-### An Interactive Excel Dashboard Built on a Power Pivot Data Model, Tracking Revenue, Order Volume, Regional Demand and Delivery Reliability for an Online Marketplace
-
-[📊 Live Portfolio Overview](https://nady-07.github.io/portfolio/#projects) · [📥 Download .XLSX File](./Ecommerce_Project.xlsx) · [💼 Connect on LinkedIn](https://www.linkedin.com/in/mohamed-alnady-52b87123b)
-
-</div>
+[Live Portfolio ↗](https://nady-07.github.io/portfolio/#portfolio) · [Download .XLSX File](./Ecommerce_Project.xlsx) · [LinkedIn](https://www.linkedin.com/in/mohamed-alnady-52b87123b)
 
 ---
 
-## 📌 Executive Summary
+## Executive Summary
 
 Online marketplaces can grow revenue while quietly losing customers to slow or failed deliveries. Sales figures alone hide that risk, so revenue and fulfilment need to be read side by side.
 
@@ -29,7 +24,7 @@ Everything is built natively in Excel: PivotTables, PivotCharts, slicers and lin
 
 ---
 
-## 🚀 Key Business Metrics & Findings
+## Key Business Metrics & Findings
 
 | Metric Domain | KPI | Value | Business Context & Insight |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +39,7 @@ Everything is built natively in Excel: PivotTables, PivotCharts, slicers and lin
 
 ---
 
-## 📸 Dashboard Walkthrough & Architecture
+## Dashboard Walkthrough & Architecture
 
 ### Dashboard: Sales & Delivery Overview
 A single-page executive dashboard with a KPI strip, four question-driven charts and a slicer-based filter pane. Every chart and card responds to the slicers.
@@ -86,7 +81,7 @@ Data is loaded with **Power Query** into the Excel Data Model, which contains th
 
 ---
 
-## 🧮 Selected DAX Measures Catalog
+## Selected DAX Measures Catalog
 
 All business metrics are defined once in the data model and reused by every PivotTable, which keeps the dashboard consistent. `DIVIDE` is used for safe division.
 
@@ -140,7 +135,7 @@ AVERAGE(fact_orders[review_score])
 
 ---
 
-## 💡 Strategic Recommendations & Action Playbook
+## Strategic Recommendations & Action Playbook
 
 Based on the quantitative findings surfaced by this dashboard, the proposed action plan is ordered by urgency:
 
@@ -158,7 +153,7 @@ Based on the quantitative findings surfaced by this dashboard, the proposed acti
 
 ---
 
-## 🛠️ How to Open & Inspect the Project
+## How to Open & Inspect the Project
 
 1. **Prerequisites:** Install desktop **Microsoft Excel** (2016 or later, or Microsoft 365). The Data Model, PivotCharts and slicers are not fully supported in Excel for the web.
 2. **Clone this repository:**
@@ -170,10 +165,11 @@ Based on the quantitative findings surfaced by this dashboard, the proposed acti
 
 ---
 
-## 👨‍💻 Author & Contact
+## License
 
-**Mohamed Al Nady** — *Data Analyst specializing in SQL, Power BI, DAX, and Data Warehousing*
-* 🌐 **Portfolio:** [nady-07.github.io/portfolio](https://nady-07.github.io/portfolio/)
-* 💼 **LinkedIn:** [linkedin.com/in/mohamed-alnady-52b87123b](https://www.linkedin.com/in/mohamed-alnady-52b87123b)
-* 📧 **Email:** [mohamednady0@outlook.com](mailto:mohamednady0@outlook.com)
-* 🐙 **GitHub:** [@Nady-07](https://github.com/Nady-07)
+Licensed under the [MIT License](./LICENSE).
+
+---
+
+**Mohamed Al Nady** — *Data & Business Intelligence Analyst*  
+[Live Portfolio ↗](https://nady-07.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/mohamed-alnady-52b87123b) · [Email](mailto:mohamednady0@outlook.com) · [GitHub](https://github.com/Nady-07)
